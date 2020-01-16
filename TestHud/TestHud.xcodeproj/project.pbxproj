@@ -14,6 +14,7 @@
 		3D624AB423C70B6F000236E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D624AB323C70B6F000236E6 /* Assets.xcassets */; };
 		3D624AB723C70B6F000236E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D624AB523C70B6F000236E6 /* LaunchScreen.storyboard */; };
 		3D624ABA23C70B6F000236E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D624AB923C70B6F000236E6 /* main.m */; };
+		3D624AC323C720DA000236E6 /* MMRHud.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D624AC223C720DA000236E6 /* MMRHud.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		3D624AB623C70B6F000236E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D624AB823C70B6F000236E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D624AB923C70B6F000236E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3D624AC123C720DA000236E6 /* MMRHud.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MMRHud.h; sourceTree = "<group>"; };
+		3D624AC223C720DA000236E6 /* MMRHud.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMRHud.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		3D624AA623C70B6D000236E6 /* TestHud */ = {
 			isa = PBXGroup;
 			children = (
+				3D624AC023C720C6000236E6 /* Hud */,
 				3D624AA723C70B6D000236E6 /* AppDelegate.h */,
 				3D624AA823C70B6D000236E6 /* AppDelegate.m */,
 				3D624AAA23C70B6D000236E6 /* SceneDelegate.h */,
@@ -74,6 +78,15 @@
 				3D624AB923C70B6F000236E6 /* main.m */,
 			);
 			path = TestHud;
+			sourceTree = "<group>";
+		};
+		3D624AC023C720C6000236E6 /* Hud */ = {
+			isa = PBXGroup;
+			children = (
+				3D624AC123C720DA000236E6 /* MMRHud.h */,
+				3D624AC223C720DA000236E6 /* MMRHud.m */,
+			);
+			path = Hud;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 				3D624AAF23C70B6D000236E6 /* ViewController.m in Sources */,
 				3D624AA923C70B6D000236E6 /* AppDelegate.m in Sources */,
 				3D624ABA23C70B6F000236E6 /* main.m in Sources */,
+				3D624AC323C720DA000236E6 /* MMRHud.m in Sources */,
 				3D624AAC23C70B6D000236E6 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
